@@ -13,7 +13,7 @@ function BlogTitles() {
     "Food",
   ];
 
-  const [selectedCategory, setSelectedCategory] = useState('General');
+  const [selectedCategory, setSelectedCategory] = useState("General");
   const [input, setInput] = useState("");
 
   const onSubmitHandler = async (e) => {
@@ -53,6 +53,7 @@ function BlogTitles() {
                     ? "bg-purple-50 text-purple-700"
                     : "text-gray-500 border-gray-300"
                 }`}
+                key={item}
               >
                 {item}
               </span>
