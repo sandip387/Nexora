@@ -178,6 +178,13 @@ export const removeImageBackground = async (req, res) => {
       });
     }
 
+    if (!image) {
+      return res.status(400).json({
+        success: false,
+        message: "No image file provided",
+      });
+    }
+
     const { secure_url } = await cloudinary.uploader.upload(image.path, {
       transformation: [
         {
