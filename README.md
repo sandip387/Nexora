@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="client/public/favicon.svg" alt="Nexora Logo" width="120" height="120">
   
   # Nexora - AI Content Creation Platform
   
   <p align="center">
     <strong>Transform your content creation with our suite of premium AI tools</strong>
   </p>
+  
   
   <p align="center">
     <a href="#features">Features</a> •
