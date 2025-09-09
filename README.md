@@ -6,15 +6,6 @@
     <strong>Transform your content creation with our suite of premium AI tools</strong>
   </p>
   
-  
-  <p align="center">
-    <a href="#features">Features</a> •
-    <a href="#demo">Demo</a> •
-    <a href="#installation">Installation</a> •
-    <a href="#deployment">Deployment</a> •
-    <a href="#contributing">Contributing</a>
-  </p>
-  
   <p align="center">
     <img src="https://img.shields.io/badge/React-19.x-blue?style=flat-square&logo=react" alt="React">
     <img src="https://img.shields.io/badge/Node.js-22.x-green?style=flat-square&logo=node.js" alt="Node.js">
