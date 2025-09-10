@@ -3,6 +3,8 @@ import Markdown from "react-markdown";
 
 const CreationItem = ({ item }) => {
   const [expanded, setExpanded] = useState(false);
+
+  const isImageType = item.type === "image" || item.type === "enhanced-image";
   return (
     <div
       onClick={() => setExpanded(!expanded)}
@@ -21,7 +23,7 @@ const CreationItem = ({ item }) => {
       </div>
       {expanded && (
         <div>
-          {item.type === "image" ? (
+          {isImageType ? (
             <div>
               <img
                 src={item.content}

@@ -11,9 +11,9 @@ import RemoveObject from "./pages/RemoveObject";
 import ReviewResume from "./pages/ReviewResume";
 import Community from "./pages/Community";
 import { Toaster } from "react-hot-toast";
+import EnhanceImage from "./pages/EnhanceImage";
 
 const App = () => {
-
   return (
     <div>
       <Toaster />
@@ -24,6 +24,7 @@ const App = () => {
           <Route path="write-article" element={<WriteArticle />} />
           <Route path="blog-titles" element={<BlogTitles />} />
           <Route path="generate-images" element={<GenerateImages />} />
+          <Route path="enhance-image" element={<EnhanceImage />} />
           <Route path="remove-background" element={<RemoveBackground />} />
           <Route path="remove-object" element={<RemoveObject />} />
           <Route path="review-resume" element={<ReviewResume />} />
