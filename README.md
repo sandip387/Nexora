@@ -41,6 +41,7 @@ Nexora is a comprehensive AI-powered SaaS platform that revolutionizes content c
 ### 🎨 **Image Tools**
 
 - **AI Image Generation**: Create stunning visuals with text prompts
+- **AI Image Enhancement**: Enhance image quality and clarity
 - **Background Removal**: Remove backgrounds from images effortlessly
 - **Object Removal**: Seamlessly remove unwanted objects from photos
 
@@ -84,6 +85,10 @@ Frontend(.env):
 ```
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 VITE_BASE_URL=http://localhost:3000
+
+# Image Enhancement API
+VITE_ENHANCE_API_KEY=your_enhance_api_key
+VITE_ENHANCE_BASE_URL=https://techhk.aoscdn.com
 ```
 
 Backend (.env):
@@ -100,10 +105,12 @@ CLERK_SECRET_KEY=your_clerk_secret_key
 NEXORA_GEMINI_API_KEY=your_gemini_api_key
 CLIPDROP_API_KEY=your_clipdrop_api_key
 
+
 # Image Storage
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
 ```
 
 ### 4. **Database Setup**
@@ -172,6 +179,10 @@ Visit `http://localhost:5173` to see the application in action! 🎉
 5. **Neon Database**
    - Create a database at [Neon](https://neon.tech)
    - Get the **connection string**
+
+6. **PicWish API**
+   - Register at [PicWish](https://picwish.com/)
+   - Get your **API key**
 
 ---
 
