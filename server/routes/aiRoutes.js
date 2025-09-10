@@ -1,6 +1,7 @@
 import express from "express";
 import { auth } from "../middlewares/auth.js";
 import {
+  enhanceImage,
   generateArticle,
   generateBlogTitle,
   generateImage,
@@ -15,6 +16,7 @@ const aiRouter = express.Router();
 aiRouter.post("/generate-article", auth, generateArticle);
 aiRouter.post("/generate-blog-title", auth, generateBlogTitle);
 aiRouter.post("/generate-image", auth, generateImage);
+aiRouter.post("/enhance-image", upload.single("image"), auth, enhanceImage);
 aiRouter.post(
   "/remove-image-background",
   upload.single("image"),
